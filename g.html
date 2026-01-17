@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="g.css">
+    <script src="https://kit.fontawesome.com/32c2d646a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+    <img src="images/logo3.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Achievements & Interests</a></li>
+        <li><a href="#portfolio">Journey Highlights</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+            <div class="header-text">
+                <p>PR & Volunteer Work</p>
+                <h1>Hi, I'am<span> Salsabila</span><br> Believing in communication and volunteer work <br>to create positive impact</h1>
+            </div>
+        </div>
+    </div>
+
+    <!----------------about---------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A second-year Information Technology student at Borg El Arab Technological University with extensive experience in public relations, student activities, and volunteer work. Proven ability in communication, leadership, and team coordination, with hands-on involvement in managing projects, organizing events, and supporting community and educational initiatives.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills',this)">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience',this)">Experience</p>
+                            <p class="tab-links" onclick="opentab('education',this)">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Leadership & Public Relations</span><br>Trained 50+ individuals and secured partnerships worth $1,770</li>
+                                <li><span>Graphic Design & Content Creation</span><br>Skilled in design, video editing, photography, and social media content</li>
+                                <li><span>Decision-Making</span><br>Handled projects under time and resource constraints</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>08/2024-06/2025</span><br>Social Media member at YLY</li>
+                                <li><span>06/2023-10/2023</span><br>Project Mnager at Building Leaders Team</li>
+                                <li><span>05/2022-06/2023</span><br>Head of Public Relations Commettiee</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelor's in Information Technology (2024–Current)</span><br>Burj Al Arab Technological University, Alexandria</li>
+                                <li><span>Thanaweya Amma (2021–2024)</span><br>General secondary education</li>
+                                <li><span>Saint Catherine School</span><br>Built early academic and organizational skills</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!------------------Achievements & Interests------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Achievements & Interests</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2>Mathematics competitions</h2>
+                    <p>Participated in the International Kangaroo Mathematics Competition (January 2022), achieving 96% local and 88% global scores. Received a certificate and Kangaroo Smart Badge, and was one of seven governorate winners for the excellence medal. Also took part in the TOFAS competition, showcasing strong problem-solving skills</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h2>International education opportunities</h2>
+                    <p>I took proactive steps to prepare for studying abroad. In 2023, I joined the Competitive College Club at Education USA Egypt, completed English language and IELTS courses, and secured acceptance into Wingate University for 2024. I was also shortlisted for a fully funded scholarship at Palm Hills with Badya University. These experiences demonstrate my resilience and determination</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-person-swimming"></i>
+                    <h2>Swimming</h2>
+                    <p>Swimming is one of my favorite hobbies, helping me build physical strength, discipline, and mental focus. It teaches me perseverance through consistent practice and overcoming challenges in the water</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-------------------------Journey Highlights----------------------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Journey Highlights</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Kangaroo Mathematics Medal</h3>
+                    <p>
+                        The 2022 International Kangaroo Competition was where my analytical skills shone: Smart Badge, outstanding scores, and excellence medal selection. This early success inspired me to pursue IT studies and mentor others in logical thinking and coding
+                    </p>
+                    
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Joining the CCC Club</h3>
+                    <p>
+                        In 2023, I attended interesting sessions with Education USA Egypt, and got accepted into the Competitive College Club! It was a nice way to learn tips about U.S. colleges and get excited about studying abroad options
+                    </p>
+                    
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Vice Head of PR in Mixology Project</h3>
+                    <p>
+                        Collaborating with a partner to manage the committee helped me develop skills in task division and finding common ground. I
+trained members, secured venues for ceremonies and sessions, and provided project materials.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<!-- ================= Contact ================= -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:salsabilatamer@gmail.com">salsabilatamer@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+201206342863">+20 120 634 2863</a></p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/salsabila.tamer" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/salsabilatamer24/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/salsabila-hamoda-7b4477321/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required autocomplete="name">
+                    <input type="email" name="Email" placeholder="Your Email" required autocomplete="email">
+                    <textarea name="Message" rows="6" placeholder="Your Message" autocomplete="off"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2026 Salsabila Hamoda. All rights reserved.</p>
+    </div>
+</div>
+
+<!-- ================= JavaScript ================= -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, element) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        element.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyPM6fjm2I_30eXRDkeGFdlsN-Fcio3sRi2D0AfBkHgNodJ4Zy5Hz6g1rIfTSzflpAOvw/exec'  // <-- حطي اللينك الحقيقي هنا
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', function(e){
+    e.preventDefault()
+
+    fetch(scriptURL, {
+        method: 'POST',
+        body: new FormData(form)
+    })
+    .then(response => {
+        msg.innerHTML = "Message sent successfully ✅"
+        setTimeout(() => msg.innerHTML = "", 5000)
+        form.reset()
+    })
+    .catch(error => {
+        msg.innerHTML = "Something went wrong ❌"
+        console.error('Error!', error)
+    })
+})
+</script>
+
+</body>
+</html>
