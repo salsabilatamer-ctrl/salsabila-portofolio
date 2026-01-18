@@ -14,7 +14,7 @@ body{
     color: #fff;
 }
 .sub-title{
-    font-size: clamp(28px, 5vw, 40px);
+    font-size: clamp(28px, 5vw, 30px);
     font-weight: 600;
 }
 
@@ -435,6 +435,7 @@ nav .fa-solid {
     }
     #header{background-image: url(images/phone5.png);}
 }
+
 
 
 
