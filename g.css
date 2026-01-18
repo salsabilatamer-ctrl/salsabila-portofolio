@@ -61,7 +61,7 @@ nav ul li a::after{
     content: "";
     width: 0;
     height: 3px;
-    background: #7e82a9;
+    background: #a6a9cc;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -83,7 +83,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color:#7e82a9;
+    color:#a6a9cc;
 }
 .header-text h2{
     font-size: clamp(14px, 3vw, 22px);
@@ -435,6 +435,7 @@ nav .fa-solid {
     }
     #header{background-image: url(images/phone4.png);}
 }
+
 
 
 
