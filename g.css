@@ -362,7 +362,7 @@ nav .fa-solid {
 @media only screen and (max-width: 768px) {
   
     .header-text {
-        margin-top: 30%; 
+        margin-top: 25%; 
         font-size: 16px;
     }
 
@@ -394,7 +394,7 @@ nav .fa-solid {
 
   
     nav ul {
-        background: #5E548E;
+        background: #7e82a9;
         position: fixed;
         top: 0;
         right: -200px;
@@ -435,6 +435,7 @@ nav .fa-solid {
     }
     #header{background-image: url(images/phone3.png);}
 }
+
 
 
 
