@@ -362,7 +362,7 @@ nav .fa-solid {
 @media only screen and (max-width: 768px) {
     /* تحسين الـ header text عشان النص ما ينزلش أوي */
     .header-text {
-        margin-top: 50%;  /* بدل 100% – جربي 40% أو 60% لو عايزة تعديل */
+        margin-top: 40%;  /* بدل 100% – جربي 40% أو 60% لو عايزة تعديل */
         font-size: 16px;
     }
 
@@ -435,6 +435,7 @@ nav .fa-solid {
     }
     #header{background-image: url(images/phone.png);}
 }
+
 
 
 
