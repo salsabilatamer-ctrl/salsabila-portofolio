@@ -24,8 +24,9 @@
     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
 </nav>
             <div class="header-text">
-                <p>PR & Volunteer Work</p>
-                <h1>Hi, I'am<span> Salsabila</span><br> Believing in communication and volunteer work <br>to create positive impact</h1>
+                <p>Web Developer</p>
+                <h1>Hi, I'am<span> Salsabila</span><br></h1>
+                <h2>Believing in that the world was never meant to be a competition of appearances, It was meant to be a gallery of individuality, where every person adds their own color, texture, and story.</h2>
             </div>
         </div>
     </div>
@@ -241,12 +242,12 @@ form.addEventListener('submit', function(e){
         body: new FormData(form)
     })
     .then(response => {
-        msg.innerHTML = "Message sent successfully ✅"
+        msg.innerHTML = "Message sent successfully"
         setTimeout(() => msg.innerHTML = "", 5000)
         form.reset()
     })
     .catch(error => {
-        msg.innerHTML = "Something went wrong ❌"
+        msg.innerHTML = "Something went wrong"
         console.error('Error!', error)
     })
 })
@@ -254,4 +255,5 @@ form.addEventListener('submit', function(e){
 
 </body>
 </html>
+
 
