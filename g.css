@@ -394,7 +394,7 @@ nav .fa-solid {
 
   
     nav ul {
-        background: #7e82a9;
+        background: #a6a9cc;
         position: fixed;
         top: 0;
         right: -200px;
@@ -435,6 +435,7 @@ nav .fa-solid {
     }
     #header{background-image: url(images/phone4.png);}
 }
+
 
 
 
