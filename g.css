@@ -354,86 +354,42 @@ form input, form textarea{
 
 
 /* ================= Responsive ================= */
-nav .fa-solid {
-    display: none;
-}
 
 @media only screen and (max-width: 768px) {
-    
+    #header {
+        min-height: 100vh;
+        background-image: url(images/phone.png);
+        background-size: cover;
+        background-position: center;
+    }
+
     .header-text {
-        margin-top: 50%;  
+        padding-top: 120px;
+        margin-top: 0;
         font-size: 16px;
-    }
-
-    .header-text h1 {
-        font-size: 30px;
-    }
-
-   
-    nav .fa-solid {
-        display: block;
-        font-size: 25px;
-        color: #fff;              
-        cursor: pointer;         
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-    }
-
-   
-    nav ul .fa-circle-xmark {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 30px;
-        color: #fff;
-        cursor: pointer;
-    }
-
-    /* الـ menu الجانبي */
-    nav ul {
-        background: #5E548E;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 80px; 
-        transition: right 0.5s;
-        z-index: 999;     
-    }
-
-    nav ul li {
-        display: block;
-        margin: 25px;
         text-align: center;
     }
 
-    nav ul li a {
-        color: #fff;
-        font-size: 18px;
+    .header-text h1 {
+        font-size: clamp(20px, 6vw, 30px);
     }
 
-    
-    .about-col-1,
-    .about-col-2,
-    .contact-left,
-    .contact-right {
-        flex-basis: 100%;
+    .header-text h2 {
+        font-size: clamp(14px, 4vw, 22px);
     }
 
-    .about-col-1 {
-        margin-bottom: 30px;
-    }
-
-   
-    .services-list,
-    .work-list {
-        grid-template-columns: 1fr;  
-    }
-    #header{background-image: url(images/phone.png);}
+    /* باقي الكود زي ما هو */
+    nav .fa-solid { display: block; font-size: 25px; color: #fff; cursor: pointer; position: absolute; top: 20px; right: 20px; z-index: 1000; }
+    nav ul .fa-circle-xmark { position: absolute; top: 20px; right: 20px; font-size: 30px; color: #fff; cursor: pointer; }
+    nav ul { background: #5E548E; position: fixed; top: 0; right: -200px; width: 200px; height: 100vh; padding-top: 80px; transition: right 0.5s; z-index: 999; }
+    nav ul li { display: block; margin: 25px; text-align: center; }
+    nav ul li a { color: #fff; font-size: 18px; }
+    .about-col-1, .about-col-2, .contact-left, .contact-right { flex-basis: 100%; }
+    .about-col-1 { margin-bottom: 30px; }
+    .services-list, .work-list { grid-template-columns: 1fr; }
 }
+
+
 
 
 
